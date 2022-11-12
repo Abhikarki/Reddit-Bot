@@ -18,6 +18,7 @@ def getReply():
 
 
 def main():
+    # my_Bot from praw.ini file.
     reddit = praw.Reddit('my_Bot')
 
     # create an empty list if a file with replied posts does not exist
